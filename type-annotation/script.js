@@ -14,8 +14,8 @@ const produtos = [
   },
 ];
 
-function filtrarLivros(dados) { // Apresenta erro pois está sem o tipo definido(any)
-  return dados.filter((item) => item.tipo === "livro");
-}
+// function filtrarLivros(dados) { // Apresenta erro pois está sem o tipo definido(any)
+//   return dados.filter((item) => item.tipo === "livro");
+// }
 
-console.log(filtrarLivros(produtos))
+// console.log(filtrarLivros(produtos))
